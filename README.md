@@ -23,7 +23,7 @@ pip install numpy pandas joblib h5py scikit-learn
 To run the script, use the following command in your terminal:
 
 ```bash
-python PREDICTOR_PROTEINAS_H5.py <model_path.plk> <embedding_path.h5>
+python PROTEIN_PREDICTOR_H5.py <model_path.plk> <embedding_path.h5>
 ```
 
 * `<model_path.plk>`: The path to the trained SVM model file. This file must be a serialized object created with `joblib`.
@@ -34,7 +34,7 @@ python PREDICTOR_PROTEINAS_H5.py <model_path.plk> <embedding_path.h5>
 If your model is named `model_weights.plk` and your embeddings are in `dataset.h5`, the command would be:
 
 ```bash
-python PREDICTOR_PROTEINAS_H5.py model_weights.plk dataset.h5
+python PROTEIN_PREDICTOR_H5.py model_weights.plk dataset.h5
 ```
 
 ---
